@@ -3,16 +3,9 @@ import Welcome from './pages/Welcome';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
+import Nav from './pages/Nav';
 
-function Nav() {
-  return (
-    <div className="nav ">
-      <Link to="/home">Home</Link>
-      <Link to="/prj">Projects</Link>
-      <Link to="/contact">Contact</Link>
-    </div>
-  );
-}
+
 
 function AppContent() {
   const location = useLocation();
