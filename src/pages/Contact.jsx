@@ -1,8 +1,11 @@
+import { useTheme } from "./Theme";
+
 function Contact() {
+    const { isDark, setIsDark } = useTheme();
     return (
-        <div className="home-page h-screen w-full bg-black flex justify-center">
-            <div className="text-white bg-black w-[1050px] my-[100px]">
-                <div className="text-white bg-black border rounded-[15px] p-[50px]">
+        <div className={`home-page h-screen w-full ${isDark ? "bg-black text-white" : "bg-gray-200 text-black "} flex justify-center`}>
+            <div className={` ${isDark ? "bg-black text-white" : "bg-gray-200 text-black "} w-[1050px] my-[100px]`}>
+                <div className={`${isDark ? "bg-black text-white" : "bg-gray-200 text-black "} border rounded-[15px] p-[50px]`}>
                     contact
                 </div>
                 <div>
