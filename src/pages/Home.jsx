@@ -48,7 +48,7 @@ function Home() {
             <div className={` ${isDark ? "bg-black text-white" : "bg-gray-200 text-black "} w-[1050px] my-[100px] mt-[50px]`}>
                 <div className={`${isDark ? "bg-black text-white border-white" : "bg-gray-200 text-black border-black"} border rounded-[15px] p-[50px] flex gap-[50px]`}>
                     <div className={`imageLeft ${isDark ? "bg-black " : "bg-gray-200 "}`}>
-                        <img src="/Hrishikesh.png" className="h-[250px] rounded-xl"></img>
+                        <img src="/def_img.png" className="h-[250px] rounded-xl"></img>
                     </div>
                     <div className="flex flex-col justify-center">
                         <div>
