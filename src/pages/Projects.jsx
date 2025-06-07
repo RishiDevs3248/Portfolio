@@ -1,3 +1,4 @@
+import ProjectBlock from "./ProjectBlock";
 import { useTheme } from "./Theme";
 
 function Projects() {
@@ -8,6 +9,7 @@ function Projects() {
             <div className={` ${isDark ? "bg-black text-white" : "bg-gray-200 text-black "} w-[1050px] my-[100px]`}>
                 {/* Page code below */}
                 {/* make a project component and reuse it  */}
+                <ProjectBlock  prj_img_src="/TechLogo/TechLogo-1.jpg" prj_name="Hello"/> 
 
             </div>
         </div>
