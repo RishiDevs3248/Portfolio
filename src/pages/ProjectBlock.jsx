@@ -1,7 +1,7 @@
 export default function ProjectBlock({prj_name , prj_img_src }){
     return (
         <>
-            <div className="border border-white rounded-md ">
+            <div className="border border-white rounded-md w-[75%] ">
                 <div>
                     <img src={prj_img_src}></img>
                 </div>
