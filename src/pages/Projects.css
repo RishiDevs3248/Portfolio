@@ -1,0 +1,7 @@
+.left-prj {
+    @apply flex justify-start mb-[20px] 
+}
+
+.right-prj {
+    @apply flex justify-end mb-[20px]
+}

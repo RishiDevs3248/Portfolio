@@ -1,6 +1,7 @@
 export default function ProjectBlock({prj_name , prj_img_src }){
     return (
         <>
+        {/* use ternary operator here in a way that aligns with right and left idea */}
             <div className="border border-white rounded-md w-[75%] ">
                 <div>
                     <img src={prj_img_src}></img>
