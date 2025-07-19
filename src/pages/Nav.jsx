@@ -28,7 +28,7 @@ export default function Nav() {
     }
 
     return (
-        <div className={`flex mt-[20px] ${isDark ? "bg-black" : "bg-gray-200"}`}>
+        <div className={`flex mt-[20px] ${isDark ? "bg-black" : "bg-gray-200"} `}>
             <div className="Left_half w-[35%] "></div>
 
             <div className={`Middle_section nav w-[30%] relative flex justify-evenly border p-[5px] rounded-xl ${isDark ? "bg-black text-white border-white" : "bg-gray-200 text-black border-black"} overflow-hidden`}>
@@ -43,7 +43,7 @@ export default function Nav() {
             </div>
 
             <div className="Right_half w-[35%] flex justify-end items-center">
-                <div className={`relative border  bg-black ${isDark ? "border-white " : "border-black"} h-[40px] w-[100px] mr-[20px] rounded-3xl flex  overflow-hidden`}>
+                <div onClick={() => setIsDark(!isDark)} className={`relative border cursor-pointer  bg-black ${isDark ? "border-white " : "border-black"} h-[40px] w-[100px] mr-[20px] rounded-3xl flex  overflow-hidden`}>
 
                     {/* Sliding background */}
                     <motion.div
@@ -54,8 +54,8 @@ export default function Nav() {
 
                     {/* Button container */}
                     <div className="flex w-full z-9 justify-between items-center">
-                        <button onClick={() => setIsDark(false)} className={`w-[40px] h-[40px] rounded-full flex justify-center items-center ${isDark?"cursor-pointer":"cursor-auto"}`}><img src="/dark.webp" className="h-[20px] w-[20px]" /></button>
-                        <button onClick={() => setIsDark(true)} className={`w-[40px] h-[40px] rounded-full flex justify-center items-center ${isDark?"cursor-auto":"cursor-pointer"}`}><img src="/light.png" className="h-[20px] w-[20px]" /></button></div>
+                        <button  className={`w-[40px] h-[40px] rounded-full flex justify-center items-center`}><img src="/dark.webp" className="h-[20px] w-[20px]" /></button>
+                        <button className={`w-[40px] h-[40px] rounded-full flex justify-center items-center`}><img src="/light.png" className="h-[20px] w-[20px]" /></button></div>
                 </div>
 
             </div>

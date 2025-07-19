@@ -252,10 +252,10 @@ function Home() {
                                     <div>
                                         <div className="mb-[10px]">
                                             <div><b>Education</b></div>
-                                            <b>Genba Sopanrao Moze College of Engineering</b> - <i>Nov 2021 – Present</i>
+                                            <b>Genba Sopanrao Moze College of Engineering</b> - <i>Nov 2021 – April 2025</i>
                                         </div>
                                         <div>
-                                            • Bachelor of Engineering in Computer Science (8.79 GPA)
+                                            • Bachelor of Engineering in Computer Science (8.81 CGPA)
                                         </div>
                                     </div>
                                 </div>

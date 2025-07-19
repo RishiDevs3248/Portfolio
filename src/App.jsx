@@ -15,7 +15,7 @@ function AppContent() {
 
   return (
     <>
-      {showNav && <div><Nav></Nav></div>}
+      {showNav && <div className='sticky top-0 z-20' ><Nav></Nav></div>}
 
       <Routes>
         <Route path="/" element={<Welcome />} />
